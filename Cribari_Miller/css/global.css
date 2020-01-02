@@ -1,0 +1,124 @@
+body {
+	background-image : url(../images/bckgrnd.jpg);
+	background-repeat : repeat;
+	margin-top : 0px;
+	text-align : center;	
+}
+
+#wrapper {
+	width : 1000px;
+	margin : auto;
+	padding : 0px;
+	text-align : left;
+	background-color : #FFFFFF;
+}
+
+
+
+#header {
+	margin : 0px;
+	padding : 0px;
+	width : 1000px;
+	height : 200px;
+	background-image : url(../images/logo.jpg);
+	background-repeat: no-repeat;
+}
+
+#navholder{
+	width : 1000px;
+	height : 25px;
+	background-image : url(../images/nav_bckgrnd.png);
+	background-repeat : repeat-x;
+}
+
+#nav{
+	padding : 0px;
+	margin : 0px;
+}
+
+#navholder #nav li{
+	padding : 0px;
+	margin : 0px;
+	float : left;
+	display : inline;
+	list-style-type : none;
+	
+
+}
+#nav a:link, #nav a:visited, #nav a:active {
+	font-family : "Arial", Helvetica, sans-serif;
+	color : #000000;
+	font-size : 12px;
+	text-decoration : none;
+	letter-spacing : 2px;
+	text-align : center;
+	display : block;
+	line-height : 21px;
+	width : 120px;
+	padding-top : 4px;
+	border-right-width : 1px;
+	border-right-style : solid; 
+	border-right-color : #000000;
+} 
+
+
+
+#nav a:hover { 
+	background-image: url(../images/nav_hov_bckgrnd.png);	
+	background-repeat: repeat-x;
+	color : #FFFFFF;
+
+}
+
+
+
+#footer{
+	width : 1000px;
+	padding-top : 5px;
+	height : 25px;
+	background-image : url(../images/nav_hov_bckgrnd.png);
+	background-repeat : repeat-x;
+}
+
+
+#info{
+	padding : 0px;
+	margin : 0px;
+}
+
+#footer #info li{
+	padding : 0px;
+	margin : 0px;
+	float : left;
+	display : inline;
+	list-style-type : none;
+}
+
+#info a:link, #info a:visited, #info a:active {
+	font-family : "Arial", Helvetica, sans-serif;
+	color : #FFFFFF;
+	font-size : 12px;
+	text-decoration : none;
+	letter-spacing : 2px;
+	text-align : center;
+	display : block;
+	line-height : 21px;
+	width : 120px;
+	padding-top : 4px;
+	border-right-width : 1px;
+	border-right-style : solid; 
+	border-right-color : #FFFFFF;
+} 
+
+#info a:hover { 
+	background-image: url(../images/info_hov_bckgrnd.png);	
+	background-repeat: repeat-x;
+	color : #000000;
+
+}
+
+
+
+
+
+

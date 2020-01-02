@@ -1,0 +1,35 @@
+h1{
+	text-align : center;
+	color : #003CFF;
+	font-family : 'Aldrich', sans-serif;
+}
+
+h2{
+	color : #DA5EFF;
+	font-family : 'Aldrich', sans-serif;
+}
+
+h4{
+	color : #00FF00;
+	font-family : 'Aldrich', sans-serif;
+}
+
+p{
+	column-count : 2;
+	font-family : 'Aldrich', sans-serif;
+	line-height : 1.6;
+}
+
+ul li{
+	 line-height : 1.6;
+}
+
+	
+
+body {
+	padding : 50px;
+	background-color : #000000;
+	color : #FFFFFF;
+	font-family : 'Aldrich', sans-serif;
+}
+
